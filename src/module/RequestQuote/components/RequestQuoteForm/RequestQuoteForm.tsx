@@ -51,7 +51,7 @@ const RequestQuoteForm = () => {
             variant="body2"
             fontFamily={"Fira Sans"}
             width={"30%"}
-            whiteSpace={"nowrap"}
+        
             component={"label"}
             sx={{whiteSpace:'wrap'}}
           >
@@ -118,7 +118,7 @@ const RequestQuoteForm = () => {
             color={COLORS.Black}
             fontFamily={"Fira Sans"}
             width={"30%"}
-            whiteSpace={"nowrap"}
+          
             component={"label"}
             sx={{whiteSpace:'wrap'}}
           >
@@ -184,9 +184,9 @@ const RequestQuoteForm = () => {
             variant="body2"
             fontFamily={"Fira Sans"}
             width={"30%"}
-            whiteSpace={"nowrap"}
+      
             component={"label"}
-            sx={{whiteSpace:'wrap'}}
+        
           >
             Form
           </Typography>
@@ -251,7 +251,7 @@ const RequestQuoteForm = () => {
             variant="body2"
             fontFamily={"Fira Sans"}
             width={"30%"}
-            whiteSpace={"nowrap"}
+          
             component={"label"}
           >
             To
@@ -316,7 +316,7 @@ const RequestQuoteForm = () => {
             variant="body2"
             fontFamily={"Fira Sans"}
             width={"30%"}
-            whiteSpace={"nowrap"}
+        
             component={"label"}
             sx={{whiteSpace:'wrap'}}
           >
@@ -372,7 +372,7 @@ boxShadow: hasValue
             variant="body2"
             fontFamily={"Fira Sans"}
             width={"30%"}
-            whiteSpace={"nowrap"}
+            
             component={"label"}
             sx={{whiteSpace:'wrap'}}
           >
@@ -434,7 +434,7 @@ boxShadow: hasValue
     color={COLORS.Black}
     fontFamily={"Fira Sans"}
     width={"30%"}
-    whiteSpace={"nowrap"}
+    
     component={"label"}
     sx={{whiteSpace:'wrap'}}
   >
@@ -506,7 +506,7 @@ boxShadow: hasValue
             variant="body2"
             fontFamily={"Fira Sans"}
             width={"30%"}
-            whiteSpace={"nowrap"}
+            
             component={"label"}
             sx={{whiteSpace:'wrap'}}
           >
@@ -574,7 +574,7 @@ boxShadow: hasValue
           variant="body2"
           fontFamily="Fira Sans"
           width="30%"
-          whiteSpace="nowrap"
+          
           component="label"
         >
           Insurance Cover Required
@@ -609,7 +609,7 @@ boxShadow: hasValue
             variant="body2"
             fontFamily={"Fira Sans"}
             width={"30%"}
-            whiteSpace={"nowrap"}
+            
             component={"label"}
           >
           Weight
@@ -671,7 +671,7 @@ boxShadow: hasValue
     color={COLORS.Black}
     fontFamily={"Fira Sans"}
     width={"30%"}
-    whiteSpace={"nowrap"}
+  
     component={"label"}
   >
     Weight Metric
@@ -741,7 +741,7 @@ boxShadow: hasValue
             variant="body2"
             fontFamily={"Fira Sans"}
             width={"30%"}
-            whiteSpace={"nowrap"}
+            
             component={"label"}
           >
             Dimensions
@@ -807,7 +807,7 @@ boxShadow: hasValue
             variant="body2"
             fontFamily={"Fira Sans"}
             width={"30%"}
-            whiteSpace={"nowrap"}
+            
             component={"label"}
           >
             HS Code
@@ -873,7 +873,7 @@ boxShadow: hasValue
             variant="body2"
             fontFamily={"Fira Sans"}
             width={"30%"}
-            whiteSpace={"nowrap"}
+            
             component={"label"}
             sx={{whiteSpace:'wrap'}}
           >
