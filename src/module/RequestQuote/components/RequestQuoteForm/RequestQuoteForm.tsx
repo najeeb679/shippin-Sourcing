@@ -33,7 +33,7 @@ const RequestQuoteForm = () => {
 
   return (
     <>
-      <Typography
+      {/* <Typography
         variant="body1"
         fontSize={"36px"}
         fontFamily={"Exo"}
@@ -42,8 +42,8 @@ const RequestQuoteForm = () => {
         color={COLORS.Black}
       >
         Request Quote
-      </Typography>
-      <form onSubmit={handleSubmit(onSubmit)}>
+      </Typography> */}
+      <form onSubmit={handleSubmit(onSubmit)} >
         <Box display={"flex"} alignItems={"center"} mb={'10px'}>
           <Typography
             margin={"10px auto 5px 0px"}
@@ -53,6 +53,7 @@ const RequestQuoteForm = () => {
             width={"30%"}
             whiteSpace={"nowrap"}
             component={"label"}
+            sx={{whiteSpace:'wrap'}}
           >
             Full Name
           </Typography>
@@ -119,6 +120,7 @@ const RequestQuoteForm = () => {
             width={"30%"}
             whiteSpace={"nowrap"}
             component={"label"}
+            sx={{whiteSpace:'wrap'}}
           >
             Email
           </Typography>
@@ -174,7 +176,9 @@ const RequestQuoteForm = () => {
           )}
         </Box>
         <Box display={"flex"} alignItems={"center"} mb={'10px'}>
+
           <Typography
+            sx={{whiteSpace:'wrap'}}
           color={COLORS.Black}
             margin={"10px auto 5px 0px"}
             variant="body2"
@@ -182,6 +186,7 @@ const RequestQuoteForm = () => {
             width={"30%"}
             whiteSpace={"nowrap"}
             component={"label"}
+            sx={{whiteSpace:'wrap'}}
           >
             Form
           </Typography>
@@ -313,6 +318,7 @@ const RequestQuoteForm = () => {
             width={"30%"}
             whiteSpace={"nowrap"}
             component={"label"}
+            sx={{whiteSpace:'wrap'}}
           >
             Description of Goods
           </Typography>
@@ -368,6 +374,7 @@ boxShadow: hasValue
             width={"30%"}
             whiteSpace={"nowrap"}
             component={"label"}
+            sx={{whiteSpace:'wrap'}}
           >
           Number of Pieces
           </Typography>
@@ -429,6 +436,7 @@ boxShadow: hasValue
     width={"30%"}
     whiteSpace={"nowrap"}
     component={"label"}
+    sx={{whiteSpace:'wrap'}}
   >
     Currency
   </Typography>
@@ -500,6 +508,7 @@ boxShadow: hasValue
             width={"30%"}
             whiteSpace={"nowrap"}
             component={"label"}
+            sx={{whiteSpace:'wrap'}}
           >
             Value of Goods
           </Typography>
@@ -559,6 +568,7 @@ boxShadow: hasValue
         </Box>
         <Box display="flex" alignItems="center" mb="10px">
         <Typography
+         sx={{whiteSpace:'wrap'}}
         color={COLORS.Black}
           margin="10px auto 5px 0px"
           variant="body2"
@@ -593,6 +603,7 @@ boxShadow: hasValue
       </Box>
         <Box display={'flex'} mb={'10px'}>
         <Typography
+         sx={{whiteSpace:'wrap'}}
         color={COLORS.Black}
             margin={"10px auto 5px 0px"}
             variant="body2"
@@ -654,6 +665,7 @@ boxShadow: hasValue
         </Box>
          <Box display={'flex'} mb={'10px'}>
   <Typography
+   sx={{whiteSpace:'wrap'}}
     margin={"10px auto 5px 0px"}
     variant="body2"
     color={COLORS.Black}
@@ -863,6 +875,7 @@ boxShadow: hasValue
             width={"30%"}
             whiteSpace={"nowrap"}
             component={"label"}
+            sx={{whiteSpace:'wrap'}}
           >
             Shipping Date
           </Typography>
@@ -922,7 +935,7 @@ boxShadow: hasValue
           </Box>
         </Box>
        <input type="submit"  style={{backgroundColor:COLORS.Brown,color:COLORS.White,padding:'10px 20px',
-        border:'none',fontSize:'13px',fontWeight:700,display:'flex',justifySelf:'end'}}/>
+        border:'none',fontSize:'13px',fontWeight:700,display:'flex',justifySelf:'end',marginBottom:'20px'}}/>
 
 
       

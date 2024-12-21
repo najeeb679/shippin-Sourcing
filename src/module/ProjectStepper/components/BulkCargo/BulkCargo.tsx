@@ -35,6 +35,7 @@ const BulkCargo: React.FC<Props> = ({ accordionData, title, img }) => {
 
   return (
     <Box maxWidth={"1140px"} paddingX={2} mx={"auto"}>
+      
       <Typography
         variant="body1"
         fontFamily={"Exo"}
